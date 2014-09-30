@@ -36,7 +36,7 @@
 \newcommand{\blankicon}{{\color{white}\Letter}}
 \newcommand{\makecontact}{%
     \begin{minipage}{0.49\linewidth}
-        \Huge\bf\resumename
+        \Huge\scshape\resumename
     \end{minipage}%
     \hfill{}%
     \begin{minipage}{0.5\linewidth}
@@ -86,7 +86,7 @@
 %% Sections will be in all-caps with first letter larger, followed by a full
 %% horizontal rule
 \titleformat{\section}
-    {\vspace{-1.75em}\Large\scshape\raggedright}
+    {\vspace{-1.5em}\Large\scshape\raggedright}
     {}
     {0em}
     {}
