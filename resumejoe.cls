@@ -44,7 +44,7 @@
         \begin{minipage}{0.6\linewidth}
             \Letter~\resumeaddress \\
             \blankicon~\resumecity \\
-            \Email~\texttt{\resumeemail} \\
+            \Email~\resumeemail \\
             \Telefon~\resumephone \\
             \Mundus~\resumeweb
         \end{minipage}
