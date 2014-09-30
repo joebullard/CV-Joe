@@ -15,7 +15,7 @@
 \RequirePackage{changepage}
 \RequirePackage{color}
 \RequirePackage{enumitem}
-\RequirePackage[margin=1in]{geometry}
+\RequirePackage[margin=1in,bottom=0.5in]{geometry}
 \RequirePackage{marvosym}
 \RequirePackage{multicol}
 \RequirePackage{natbib}
@@ -56,7 +56,7 @@
 %% e.g. Education entry
 \newcommand{\dateitem}[3]{%
     \textbf{#1}\hfill #2 \\
-    {#3}\vspace{1em}
+    {#3}\vspace{0.5em}
 }
 
 %% Special case of dateitem format that assumes the third arg is one line and takes a 4th arg of
@@ -68,13 +68,13 @@
             #4
         \end{itemize}
     }%
-    \vspace{-1.2em}
+    \vspace{-0.7em}
 }
 
 %% Bold item name with text immediately following
 %% e.g. subset of skills section "Languages: English, Spanish"
 \newcommand{\nameditem}[2]{%
-    \textbf{#1} #2 \\
+    \textbf{#1} #2 \\[-0.5em]
 }
 
 %% 1 item with an overhang indent
