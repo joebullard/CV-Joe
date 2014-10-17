@@ -8,7 +8,7 @@
 % from the main document.
 %------------------------------------------------------------------------------%
 
-\LoadClass[11pt]{report}
+\LoadClass[letterpaper,11pt]{report}
 \ProvidesClass{resumejoe}[2014/09/06 Joes Resume Class]
 
 \RequirePackage{bibentry}
