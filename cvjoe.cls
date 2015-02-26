@@ -37,7 +37,7 @@
 %% Delimiter between each contact item
 \newcommand{\cvcontactdelim}{$\quad\bullet\quad$}
 
-%% Mkae the top-matter
+%% Make the top-matter
 \newcommand{\makecontact}{%
     \centering
 
@@ -46,9 +46,9 @@
     {\large\it Curriculum vitae} \\[0.5em]
 
     {\small
-        \cvaddress
+        \Letter~\cvaddress
 
-        \Letter~\cvemail
+        \Email~\cvemail
         \cvcontactdelim
         \Telefon~\cvphone
         \cvcontactdelim
@@ -136,4 +136,9 @@
 
 %% Fancy-pants for ongoing things, i.e. "March - present"
 \newcommand{\present}{\emph{present}}
+
+%% Fancy-pants formatting for contact info
+\newcommand{\emailaddr}[1]{\Email~\texttt{#1}}
+\newcommand{\phonenumber}[1]{\Telefon~{#1}}
+
 
