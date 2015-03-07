@@ -90,7 +90,7 @@
 %%      #2: content
 %%
 \newcommand{\genericitem}[2]{%
-    \begin{tabular}{@{}>{\color{darkgray}\vspace{-0.8em}\raggedleft}p{0.14\textwidth}|p{0.86\textwidth}@{}}
+    \begin{tabular}{@{}>{\color{darkgray}\vspace{-0.8em}\raggedleft}p{0.14\textwidth}|p{0.84\textwidth}@{}}
         #1 & #2 \\
     \end{tabular}
     \vspace{0.75em}
